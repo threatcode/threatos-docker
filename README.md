@@ -1,14 +1,14 @@
-# Docker images for Parrot OS
+# Docker images for Threat OS
 
 Docker is a powerful technology that allows users to run containers universally on any host platform.
 
 Docker uses template images, and allows the user to start several instances of the same template, destroy them, or build new custom templates on top of them.
 
-Parrot uses docker to allow its users to use its vast arsenal of tools on any platform supported by docker.
+Threat uses docker to allow its users to use its vast arsenal of tools on any platform supported by docker.
 
-[Parrot Core](#threatoscore)
+[Threat Core](#threatoscore)
 
-[Parrot Security](#threatos)
+[Threat Security](#threatos)
 
 [Nmap](#threatostools-nmap)
 
@@ -30,11 +30,11 @@ Parrot uses docker to allow its users to use its vast arsenal of tools on any pl
 
 # Available Templates
 
-Whether you want to have a container full of tools, or several smaller containers with a tiny selection of tools, or even a clean Parrot environment to build yor custom stack on, this is the right place where to learn how to take advantage of the Parrot Docker workspace.
+Whether you want to have a container full of tools, or several smaller containers with a tiny selection of tools, or even a clean Threat environment to build yor custom stack on, this is the right place where to learn how to take advantage of the Threat Docker workspace.
 
 ## threatos/core
 
-Core system with just the Parrot basics.
+Core system with just the Threat basics.
 You can use it as a start point to create your custom containers.
 
 available flavors:
@@ -162,7 +162,7 @@ example:
 
 ## threatos/build
 
-This container is used internally by the Parrot Build Platform to test and build the distro packages.
+This container is used internally by the Threat Build Platform to test and build the distro packages.
 
 Even if it is not meant to be used directly by users, it contains all the tools to work on debian packaging and properly test package builds in clean and disposable environments.
 
